@@ -1,0 +1,12 @@
+# Include Nette Framework's specific configuration here
+
+php:
+	date.timezone: Europe/Prague
+
+application:
+	errorPresenter: Error
+	mapping:
+		*: App\Presenters\*Presenter
+
+tracy:
+	showLocation: true

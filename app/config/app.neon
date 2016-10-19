@@ -1,0 +1,4 @@
+framework:
+	routing:
+		providers:
+			- @App\Routing\DefaultRouteProvider

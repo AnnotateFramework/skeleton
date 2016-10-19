@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {capture $html}
+    <title>Welcome to Annotate!</title>
+</head>
+<body>
+{include #content}
+{/capture}
+{default $styles = []}
+{foreach $styles as $style}
+    <link rel="stylesheet" href="{$style->getRelativePath($basePath)}"/>
+{/foreach}
+{$html|noescape}
+{default $scripts = []}
+{foreach $scripts as $script}
+    <script src="{$script->getRelativePath($basePath)}"></script>
+{/foreach}
+</body>
+</html>

@@ -1,0 +1,3 @@
+extensions:
+	framework: Annotate\Framework\DI\FrameworkExtension
+	templating: Annotate\Templating\DI\TemplatingExtension

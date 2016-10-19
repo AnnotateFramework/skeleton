@@ -1,0 +1,6 @@
+includes:
+	- nette.neon
+	- extensions.neon
+	- services.neon
+	- app.neon
+	- local.neon
