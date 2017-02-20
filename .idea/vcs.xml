@@ -2,5 +2,13 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/annotate/backend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/annotate/collections" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/annotate/diagnostics" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/annotate/framework" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/annotate/modules" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/annotate/packages" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/annotate/templating" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/annotate/themes" vcs="Git" />
   </component>
 </project>
